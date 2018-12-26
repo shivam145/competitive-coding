@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    unordered_map<int,int> umap;
+    int n,a,k;
+    cin>>n>>k;
+    while(n--)
+    {
+        cin>>a;
+        umap[a]++;
+    }
+    while(k--)
+    {
+        cin>>a;
+        cout<<umap[a]<<endl;
+    }
+return 0;
+    
+}
