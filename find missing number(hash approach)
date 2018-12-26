@@ -3,7 +3,6 @@ using namespace std;
 unordered_map<int,int> umap;
 int main()
 {
-
     unordered_map <int,int> umap;
     int n,a,k;
     cin>>n;
